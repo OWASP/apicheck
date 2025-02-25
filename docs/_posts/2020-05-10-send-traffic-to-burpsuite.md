@@ -5,7 +5,7 @@ author_link: https://twitter.com/ggdaniel
 title: "Sending traffic to BurpSuite"
 ---
 
-In the [previous post](https://bbva.github.io/apicheck/2020/05/08/save-navigation-sessions.html) post we talked about how to store navigation traffic in a session file. Now we'll use this file to send it to a proxy, like BurpSuite or OWASP ZAP Proxy
+In the [previous post](https://bbva.github.io/apicheck/2020/05/08/save-navigation-sessions.html) post we talked about how to store navigation traffic in a session file. Now we'll use this file to send it to a proxy, like BurpSuite or ZAP proxy.
 <!--more-->
 
 As part of `APICheck tool set` there's available the [Send-to-proxy](https://bbva.github.io/apicheck/tools/apicheck/send-to-proxy) tool. This tool reads from `stdin` and sends each [APICheck Data Objects](https://bbva.github.io/apicheck/docs/integrating-new-tools#apicheck-data-format) to a proxy.
